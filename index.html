@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/tresha-logo.svg" alt="" />
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#content-wrapper" class="nav-link">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="slide current">
+        <div class="content">
+          <h1>Calm Before the Storm</h1>
+          <p>
+            “Where the waters do agree, it is quite wonderful the relief they
+            give.” ― Jane Austen
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Night Trouble</h1>
+          <p>
+            “Don’t forget: beautiful sunsets need cloudy skies.” – Paulo Coelho
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Autumn Leaves</h1>
+          <p>Fall breeze and autumn leaves, as summer waves goodbye.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Roads Untravelled</h1>
+          <p>
+            "Some beautiful paths can't be discovered without getting lost." –
+            Erol Ozan
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <h1>Fallen Leaves</h1>
+          <p>
+            "Autumn is a second spring when every leaf is a flower." — Albert
+            Camus
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+      <button id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <div class="quote">
+      <p>We take photographs as a return ticket to a moment otherwise gone.</p>
+      <span>Katie Thurmes</span>
+    </div>
+
+    <div id="content-wrapper">
+      <div class="gallery-images-wrapper">
+        <div class="gallery-image-wrapper">
+          <div
+            class="gallery-background"
+            style="background-image: url(images/florafauna.jpg)"
+          ></div>
+          <a href="macro.html">
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="./images/sunflower.svg" alt="" />
+              </div>
+              <div class="subtitle">
+                <h2>Macro</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-image-wrapper">
+          <div
+            class="gallery-background"
+            style="background-image: url(images/scenery.jpg)"
+          ></div>
+          <a href="landscape.html">
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="./images/mountain.svg" alt="" />
+              </div>
+              <div class="subtitle">
+                <h2>Landscape</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+    <footer>
+      <div class="contact">
+        <a href="https://www.instagram.com/treshaphotography/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="mailto: ashishakya.7@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <p>©Tresha Photography 2021</p>
+    </footer>
+    <script src="./js/nav.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery.js"></script>
+  </body>
+</html>
